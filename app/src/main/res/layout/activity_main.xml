@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/logo_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="@string/logo_text"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:textAlignment="center"
+        android:textStyle="italic">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_field"
+        android:layout_below="@+id/logo_text"
+        android:layout_marginTop="170sp"
+        android:layout_marginHorizontal="50sp"
+        android:hint="Enter the city"
+        ></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_main"
+        android:layout_below="@+id/user_field"
+        android:layout_marginTop="250sp"
+        android:layout_marginHorizontal="60dp"
+        android:text="@string/btn_text"
+        android:background="@drawable/btn_rounded_corner"
+        android:elevation="7dp"
+        android:translationZ="5dp"
+        ></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_main"
+        android:id="@+id/result"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="100sp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        ></TextView>
+
+</RelativeLayout>

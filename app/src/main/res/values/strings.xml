@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">java_course</string>
+    <string name="logo_text">Code Java Start</string>
+    <string name="btn_text">Press me!</string>
+    <string name="User_input">Input the city</string>
+</resources>
